@@ -17,3 +17,5 @@ data = {"name": "Amisa", "views":99, "likes": 50}
 
 response = requests.patch(BASE + "video/2", json=data)
 print(response.json())
+
+print("Test")
